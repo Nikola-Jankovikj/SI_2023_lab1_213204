@@ -1,0 +1,55 @@
+1. Git веќе ми беше инсталирано на компјутерот па продолжив на задача 2.
+2. Го променив името на главната гранка од main во master.
+3. Креирав remote repository со име SI_2023_lab1_213204.
+4. Креирав директориум со име SI_2023_lab1_213204 и направив:
+	 git init
+5. За да ги поврзам локалниот и оддалечениот репозиториум искористив:
+	 git remote add origin https://github.com/Nikola-Jankovikj/SI_2023_lab1_213204.git
+6. Креирав текст фајл README.md со внатре име, презиме и број на индекс. Потоа ги извршив наредните функции:
+	git add README.md
+	git commit -m "Initial commit"
+7. Креирав фајл SILab1.java и го додадов во директориумот. Потоа ги извршив наредните функции:
+	git add SILab1.java
+	git commit -m "Add java class"
+8. Не ми дозволуваше да направам push па затоа генерирав токен прво па потоа ја извршив командата: 
+	git push -u origin main
+9. Ги извршив функциите:
+	git branch bug1
+	git branch bug2
+	git branch bug3
+10. Ја извршив наредбата:
+	git checkout bug1
+11. Поправив во кодот (наместо <=n ставив <n) и ги извршив наредбите:
+	git add SILab1.java
+	git commit -m "Fix wrong loop for reading"
+12. Ја извршив функцијата:
+	git checkout bug2
+13. Ја поправив грешката во функцијата (наместо el % 2 == 0 ставив el % 2 != 0) и ги извршив наредбите:
+	git add SILab1.java
+	git commit -m "Fix wrong condition in filterOddNumbers"
+14. Ја извршив наредбата:
+	git checkout bug3
+15. Поправив грешката и ги извршив наредбите:
+	git add SILab1.java
+	git commit -m "Fix method sumEvenNumbers"
+16. Едно по едно на branches-от им направив git push
+17. Ја извршив наредбата:
+	git checkout master
+18. Ја извршив наредбата:
+	git merge bug1 -> овој merge се изврши со Fast-forward
+19. Јан извршив наредбата 
+	git push -u origin master
+20. Ја извршив наредбата:
+	git merge bug2 -> овој merge се изврши со recursive и креираше нов commit
+21. Ја извршив наредбата:
+	git push -u origin master
+22. Ја извршив наредбата:
+	git checkout bug3
+23. Ја извршив наредбата:
+	git rebase master
+24. Ја извршив наредбата:
+	git checkout master
+25. Ја извршив наредбата:
+	git merge bug3 -> овој merge се изврши со Fast-forward
+26. Ја извршив наредбата:
+	git push -u origin master

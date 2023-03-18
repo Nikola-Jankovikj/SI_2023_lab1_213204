@@ -1,0 +1,39 @@
+$ git log
+commit 0b1592ff4b8932994f8cb113f925e520c3fb9fd9 (HEAD -> master, origin/master, bug3)
+commit 0b1592ff4b8932994f8cb113f925e520c3fb9fd9 (HEAD -> master, origin/master, bug3)
+Author: Nikola-Jankovikj <nikola.jankovikj@students.finki.ukim.mk>
+Date:   Sat Mar 18 19:45:12 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit c1a3bda6a53881d2ebbfc5944273209227e219c4
+Merge: 3a6f4d2 f766625
+Author: Nikola-Jankovikj <nikola.jankovikj@students.finki.ukim.mk>
+Date:   Sat Mar 18 22:43:00 2023 +0100
+
+    Merge branch 'bug2'
+
+commit f7666257892f5f99e61a7e23af9533d8c392be83 (bug2)
+Author: Nikola-Jankovikj <nikola.jankovikj@students.finki.ukim.mk>
+Date:   Sat Mar 18 19:41:59 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 3a6f4d2a2282fe9bfd21ac3c88f13273363fa657 (bug1)
+Author: Nikola-Jankovikj <nikola.jankovikj@students.finki.ukim.mk>
+Date:   Sat Mar 18 19:37:02 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 6bd42ed902068aed84c674b7a08c02cd2aa1aaf3
+Author: Nikola-Jankovikj <nikola.jankovikj@students.finki.ukim.mk>
+Date:   Sat Mar 18 19:16:16 2023 +0100
+
+    Add java class
+
+commit 8893c6d90230690dd6b7651003d6e39ef28d7e04
+Author: Nikola-Jankovikj <nikola.jankovikj@students.finki.ukim.mk>
+Date:   Sat Mar 18 19:14:52 2023 +0100
+
+    Initial commit
+(END)
